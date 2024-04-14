@@ -111,7 +111,7 @@ function color(input) {
     'Topaz',
     'Citrine',
   ];
-  if (hexRegex.test(input)) {
+  if (hex.test(input)) {
     return true;
   }
   return colorNames.includes(input.toLowerCase());
