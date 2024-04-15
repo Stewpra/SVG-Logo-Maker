@@ -158,7 +158,7 @@ function prompt() {
         shape_color
       );
 
-      fs.writeFile('./demo/logo.svg', svgContent, (err) => {
+      fs.writeFile('./logo.svg', svgContent, (err) => {
         if (err) throw err;
         console.log('Generated logo');
       });
@@ -169,3 +169,4 @@ function prompt() {
 }
 
 // call prompt
+prompt();
